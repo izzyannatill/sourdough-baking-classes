@@ -90,7 +90,7 @@ color: white;
 background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../images/sourdough-loaves.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-padding: 100px ;
+padding: 50px 100px;
 }
 
 footer h3 {
