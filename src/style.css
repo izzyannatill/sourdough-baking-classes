@@ -11,10 +11,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.box {
-    padding: 15px;
+    grid-gap: 10px;
 }
 
 section {
