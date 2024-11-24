@@ -6,17 +6,27 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
     grid-gap: 10px;
+}
+
+.grid-column-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-column-2 {
+    grid-template-columns: 1fr 1fr;
 }
 
 section {
     max-width: 1200px;
-    margin: auto 0;
+    margin: 0 auto;
+    padding: 100px 50px;
 }
 
 header {
@@ -64,7 +74,7 @@ header a {
    margin-top: 32px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     header {
         padding: 60px 0;
     }
@@ -80,6 +90,58 @@ header a {
     header h3 {
         font-size: 12px;
     }
+
+    main {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+}
+
+main {
+    background-color: white;
+}
+
+main img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: green;
+    opacity: 0.8;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 5px;
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.7;
 }
 
 footer {
@@ -87,7 +149,6 @@ color: white;
 background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../images/sourdough-loaves.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-padding: 50px 100px;
 }
 
 footer h3 {
