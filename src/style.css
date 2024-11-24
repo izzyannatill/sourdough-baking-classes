@@ -11,8 +11,7 @@ body {
 
 .grid {
     display: grid;
-
-    grid-gap: 10px;
+    grid-gap: 50px;
 }
 
 .grid-column-3 {
@@ -74,7 +73,7 @@ header a {
    margin-top: 32px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     header {
         padding: 60px 0;
     }
@@ -114,8 +113,7 @@ main {
 }
 
 main img {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 100%;
 }
 
 main h2 {
